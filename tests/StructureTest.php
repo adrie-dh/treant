@@ -6,7 +6,7 @@ class StructureTest extends \PHPUnit_Framework_TestCase
 {
     public function testInitializeStructure()
     {
-        $rootNode = new Structure\FileSystem\RootNode();
+        $rootNode = new Plugin\FileSystem\RootNode();
         $treantStucture = new Structure($rootNode);
     }
 }
