@@ -12,7 +12,15 @@
 >
     <testsuites>
         <testsuite name="Treant Test Suite">
-            <directory>tests</directory>
+            <directory>tests/Treant/</directory>
         </testsuite>
     </testsuites>
+    <logging>
+        <log type="coverage-html" target="./tests/codeCoverage" charset="UTF-8"/>
+    </logging>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
 </phpunit>
