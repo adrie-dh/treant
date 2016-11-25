@@ -8,7 +8,7 @@ class RootNode extends \Treant\RootNode
     {
         return array(
             '\Treant\Plugin\FileSystem\Folder',
-            '\Treant\Plugin\FileSystem\File'
+            '\Treant\Plugin\FileSystem\File',
         );
     }
 }
